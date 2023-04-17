@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url("stylefile.jpg");
+    background-size: 125%;
+    background-position: -400px 0px;
+}
+
+div .main {text-align: center;
+    width: 400px;
+    margin: 100px auto 0px auto;
+}
+
+h2 {
+    text-align: center;
+    padding: 50px;
+    font-family: sans-serif;
+}
+
+div.RegisterMain {
+    background-color: rgba(55, 26, 26, 0.5);
+    width: 30%;
+    font-size: 20px;
+    border-radius: 15px;
+    border: 1px solid rgb(155, 132, 132);
+    box-shadow: 2px 2px 15px rgba(214, 210, 210, 0.3);
+    color: rgb(202, 192, 192);padding: 50px;margin-left: auto; margin-right: auto;display: block;margin-top: 60px;
+}
+
+form#register {
+margin-left: 100px;
+}
+
+label {
+    font-size: 18px;
+    font-family: sans-serif;
+    font-style: italic;
+}
+
+button {
+    font-size: bold;
+    font-size: 18px;
+    background-color: rgb(230, 129, 5);
+    margin: 30px 0; margin-left: 90px;
+    padding: 10px 15px;
+    border-color: azure;
+    width: 100px;
+}
+
+input#name {
+    width: 300px;
+
+    box-shadow: inset 1px 1px 1px 5px;
+    border: 1px solid rgb(239, 235, 235);
+    border-radius: 3px;
+    padding: 7px;
+    background-color: rgb(249, 253, 251);
+    outline: 0;
+    box-shadow: inset 1px 1px 5px wheat;
+}
